@@ -39,9 +39,127 @@ a {
 .container header .navegacao {
     display: flex;
     gap: 60px;
+    align-items: center;
+    margin-right: 80px;
+    font-weight: bold;
 }
 
 .container header .navegacao nav ul {
     display: flex;
     gap: 20px;
+}
+
+.container header .navegacao button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.container header .navegacao button j {
+    font-size: 16px;
+}
+
+.container main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.container main .esquerda {
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container main .esquerda img {
+    width: 550px;
+}
+
+.container main .direita {
+    width: 50;
+    display: flex;
+    flex-direction: column;
+}
+
+.container main .direita .secao1 .info {
+    background-color: #ba68c8;
+    width: fit-content;
+    padding: 1px 5px;
+    line-height: 0;
+    border-radius: 20px;
+    color: white;
+    cursor: default;
+}
+
+.container main .direita .secao2 .botoes {
+    display: flex;
+    gap: 20px;
+}
+
+.container main .direita .secao2 .botoes .botao {
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.container main .direita .secao2 .botoes .primario {
+    background-color: #ba68c8;
+    color: white;
+    transition: 500ms ease;
+}
+
+.container main .direita .secao2 .botoes .primario:hover {
+    background-color: #52265a;
+ 
+}
+
+.container main .direita .secao2 .botoes .secundario {
+    color: #ba68c8;
+    transition: 500ms ease;
+}
+
+.container main .direita .secao2 .botoes .secundario:hover {
+    border: 1px solid #ba68c8;
+}
+
+.container footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+
+}
+
+.container footer .meio {
+    font-weight: bold;
+}
+
+.container footer .direita {
+    gap: 10px;
+    display: flex;
+}
+
+.container footer .direita i {
+    font-size: 30px;
+    transform: 500ms ease;
+    cursor: pointer;
+}
+
+
+.container footer .direita .fa-facebook:hover {
+    color: blue;
+}
+
+.container footer .direita .fa-instagram:hover {
+    color: #ba68c8;
+}
+
+.container footer .direita .fa-whatsapp:hover {
+    color: green;
 }
