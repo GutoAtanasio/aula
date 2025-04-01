@@ -13,7 +13,7 @@
 
 <body>
     <section class="h-screen">
-        <header class="flex justify-between items-center p-[20px]">
+        <header class="hidden md:flex justify-between items-center p-[20px]">
             <img src="https://images.vexels.com/media/users/3/137724/isolated/preview/c30bc541ea2fe03747c7f569bee90089-minimalismo-infinity-logo-infinite.png"
                 alt="Logo" class="w-[40px]">
             <div class="border rounded-xs border-gray-200 w-[400px] px-[10px] py-[5px] flex items-center gap-4">
@@ -29,7 +29,7 @@
         </header>
 
         <section class="flex h-full w-full">
-            <aside class="w-[20%]">
+            <aside class="w-[20%] hidden md:flex md:flex-col">
                 <nav>
                     <ul>
                         <li class="hover:bg-gray-100 transition-all duration-300 border-l-4 border-[#A272F6]"
@@ -84,7 +84,7 @@
                     <button class="bg-[#7E3AF2] px-[30px] py-[8px] text-white rounded cursor-pointer">Create account +</button>
                 </div>
             </aside>
-            <main class="bg-[#F9FAFB] w-[80%] h-auto p-6 space-y-6">
+            <main class="bg-[#F9FAFB] w-[100%] md:w-4/5 h-auto p-6 space-y-6">
                 <h1 class="text-[24px] font-bold">Dashboard</h1>
                 <div class="bg-purple-700 p-4 rounded-lg text-white flex justify-between">
                     <div class="flex items-center gap-4">

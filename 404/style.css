@@ -163,3 +163,24 @@ a {
 .container footer .direita .fa-whatsapp:hover {
     color: green;
 }
+
+/* media query */
+
+@media (max-width: 900px) {
+    .container {
+        & header {
+            display: none;
+        }
+
+        & main {
+            & .esquerda {
+                display: none;
+            }
+            
+            & .direita {
+            width: 100%;
+            padding: 20px;
+            }
+        }
+    }
+}
